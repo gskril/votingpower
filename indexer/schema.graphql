@@ -1,0 +1,9 @@
+type Account @entity {
+  id: String!
+  ensTokens: BigInt!
+}
+
+type Delegate @entity {
+  id: String!
+  ensVotingPower: BigInt!
+}
