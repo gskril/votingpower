@@ -3,7 +3,7 @@ import { ApiResponse } from '../types'
 
 export function useEnsDelegates() {
   const { data, error } = useFetch<ApiResponse>(
-    'https://voting-power.up.railway.app/',
+    'https://votingpower.up.railway.app/',
     {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
