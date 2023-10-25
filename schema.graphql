@@ -1,4 +1,4 @@
-type ExampleEntity @entity {
+type Account @entity {
   id: String!
-  name: String!
+  ensTokens: BigInt!
 }
