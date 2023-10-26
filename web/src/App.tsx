@@ -19,7 +19,7 @@ export default function App() {
       <div />
 
       <Container>
-        <Heading align="center">Largest $ENS Token Holders</Heading>
+        <Heading align="center">Largest $ENS Delegates</Heading>
 
         <Table>
           <TableHeader>
